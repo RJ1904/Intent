@@ -88,4 +88,4 @@ Get the latest APK from the **[Releases Page](../../releases)**.
 
 ## 📄 License
 
-This project is currently private.
+Distributed under the MIT License. See `LICENSE` for more information.
