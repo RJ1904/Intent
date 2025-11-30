@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root_small"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:gravity="center_vertical"
+    android:background="@drawable/widget_background">
+
+    <!-- Logo -->
+    <ImageView
+        android:id="@+id/widget_logo_small"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/ic_launcher_foreground"
+        android:contentDescription="Intent Logo"
+        android:scaleType="fitCenter"
+        android:layout_marginEnd="8dp" />
+
+    <!-- Screen Time Section -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/total_time_small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3h 45m"
+            android:textSize="28sp"
+            android:textColor="@color/widget_text_primary"
+            android:fontFamily="sans-serif-black"
+            android:letterSpacing="-0.02" />
+
+        <TextView
+            android:id="@+id/label_time_small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Screen Time"
+            android:textSize="11sp"
+            android:textColor="@color/widget_text_secondary"
+            android:fontFamily="sans-serif" />
+    </LinearLayout>
+
+    <!-- Sessions Section -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="end"
+        android:layout_marginStart="12dp">
+
+        <TextView
+            android:id="@+id/total_sessions_small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15"
+            android:textSize="28sp"
+            android:textColor="@color/widget_text_primary"
+            android:fontFamily="sans-serif-black"
+            android:letterSpacing="-0.02" />
+
+        <TextView
+            android:id="@+id/label_sessions_small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sessions"
+            android:textSize="11sp"
+            android:textColor="@color/widget_text_secondary"
+            android:fontFamily="sans-serif" />
+    </LinearLayout>
+
+    <!-- Refresh Button -->
+    <ImageButton
+        android:id="@+id/refresh_button_small"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="12dp"
+        android:src="@android:drawable/ic_popup_sync"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:contentDescription="Refresh"
+        android:tint="@color/widget_text_secondary" />
+
+</LinearLayout>

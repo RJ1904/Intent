@@ -1,0 +1,32 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+
+    <group
+        android:pivotX="256"
+        android:pivotY="256"
+        android:scaleX="0.75"
+        android:scaleY="0.75"
+        android:translateY="15">
+        <!-- Broken Loop (Monochrome) -->
+        <path
+            android:pathData="M 216 106 A 160 160 0 1 1 296 106"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="50"
+            android:strokeLineCap="round"
+            android:fillColor="#00000000" />
+
+        <!-- Pause Bar 1 (Monochrome) -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M 233.5 66 L 233.5 66 A 12.5 12.5 0 0 1 246 78.5 L 246 143.5 A 12.5 12.5 0 0 1 233.5 156 L 233.5 156 A 12.5 12.5 0 0 1 221 143.5 L 221 78.5 A 12.5 12.5 0 0 1 233.5 66 Z" />
+
+        <!-- Pause Bar 2 (Monochrome) -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M 278.5 66 L 278.5 66 A 12.5 12.5 0 0 1 291 78.5 L 291 143.5 A 12.5 12.5 0 0 1 278.5 156 L 278.5 156 A 12.5 12.5 0 0 1 266 143.5 L 266 78.5 A 12.5 12.5 0 0 1 278.5 66 Z" />
+    </group>
+
+</vector>
