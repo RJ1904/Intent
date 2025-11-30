@@ -47,9 +47,9 @@ Your data belongs to you.
 
 ## 📸 Screenshots
 
-| Dashboard | Intervention | App Selection | Widget |
-|:---:|:---:|:---:|:---:|
-| *(Add Screenshot)* | *(Add Screenshot)* | *(Add Screenshot)* | *(Add Screenshot)* |
+| Dashboard (Light) | Dashboard (Dark) | Intervention | App Selection | Widget |
+|:---:|:---:|:---:|:---:|:---:|
+| <img src="screenshots/dashboard_light.png" width="200"/> | <img src="screenshots/dashboard_dark.png" width="200"/> | <img src="screenshots/popup_settings.png" width="200"/> | <img src="screenshots/app_list.png" width="200"/> | <img src="screenshots/widget.png" width="200"/> |
 
 ---
 
